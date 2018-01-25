@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <title th:text="${meetingDate}"></title>
+</head>
+<body>
+<p th:each="meetingLog : ${meetingLogs}" th:text="${meetingLog}"></p>
+</body>
+</html>
